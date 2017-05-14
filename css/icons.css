@@ -1,0 +1,28 @@
+.fa{
+    font-size: 30px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+    text-align: center;
+    height: 50px;
+    float: left;
+    transition-duration: 200ms;
+}
+.fa:hover{
+    width: 100px;
+    height: 100px;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-youtube{
+    color: white;
+    background: red;
+}

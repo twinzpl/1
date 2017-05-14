@@ -1,0 +1,28 @@
+body{
+    background-color: #303030;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+#menu{
+    width: 75px;
+    height: auto;
+    background-color: #252525;
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 75px;
+    width: 75px;
+}
+#container{
+    height: 100%;
+    width: 100%;
+}
+#first{
+    width: 100%;
+    height: 200px;
+    border-color: white;
+    border-width: 10px;
+    border-radius: 10px;
+}

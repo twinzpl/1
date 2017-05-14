@@ -1,0 +1,41 @@
+body{
+    background-color: #303030;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+}
+#menu{
+    width: 50px;
+    height: auto;
+    background-color: #252525;
+    float: left;
+    position: fixed;
+    top: 0;
+}
+#window{
+    width: 100%;
+    float: left;
+    height: 5000px;
+    padding-left: 70px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+.menu-option {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 50px;
+    width: 50px;
+    transition-duration:250ms;
+}
+#container{
+    height: 100%;
+    width: 100%;
+}
+.menu-option:hover{
+    background-color: lightslategray;
+    cursor: pointer;
+    width: 100px;
+    opacity: 0.9;
+}
