@@ -39,3 +39,33 @@ body{
     width: 100px;
     opacity: 0.9;
 }
+#paids{
+    border: solid 4px gray;
+    width: 600px;
+    height: auto;
+}
+.paids-sql{
+    width: 595px;
+    height: 25px;
+    border-bottom: solid 1px gray;
+}
+.paids-sql:hover{
+    background-color: lightslategray;
+}
+.info-square{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    transition-duration:200ms;
+    float: left;
+}
+.info-square:hover{
+    background-color: lightslategray;
+    font-size: 48px;
+    width: 150px;
+    height: 150px;
+    
+}
