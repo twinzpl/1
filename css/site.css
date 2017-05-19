@@ -1,3 +1,4 @@
+
 body{
     background-color: #303030;
     color: white;
@@ -61,17 +62,11 @@ body{
     text-align: center;
     transition-duration:200ms;
     float: left;
-    .on-hover {
-        visibility: hidden;
-    }
-    &:hover .on-hover {
-        visibility: visible;
-    }
 }
 .info-square:hover{
     background-color: lightslategray;
-    font-size: 48px;
-    width: 150px;
-    height: 150px;
+    font-size: 36px;
+    width: 200px;
+    height: 200px;
     
 }
