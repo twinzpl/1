@@ -61,6 +61,12 @@ body{
     text-align: center;
     transition-duration:200ms;
     float: left;
+    .on-hover {
+        visibility: hidden;
+    }
+    &:hover .on-hover {
+        visibility: visible;
+    }
 }
 .info-square:hover{
     background-color: lightslategray;
