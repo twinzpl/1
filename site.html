@@ -30,10 +30,13 @@
 </div>
     <div id="window">
     <?php
-        $sitenumber = 1;
+        $sitenumber = "home";
         switch ($sitenumber) {
-            case "1":
+            case "home":
                 echo "legia wawa";
+                break;
+            default:
+                echo "error";
                 break;
         }
     ?>
